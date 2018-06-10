@@ -1,0 +1,92 @@
+C51 COMPILER V9.56.0.0   MAIN                                                              06/10/2018 15:00:32 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND CODE LISTINCLUDE SYMBOLS
+
+line level    source
+
+   1          #include <stdio.h>
+   1      =1  /*--------------------------------------------------------------------------
+   2      =1  STDIO.H
+   3      =1  
+   4      =1  Prototypes for standard I/O functions.
+   5      =1  Copyright (c) 1988-2002 Keil Elektronik GmbH and Keil Software, Inc.
+   6      =1  All rights reserved.
+   7      =1  --------------------------------------------------------------------------*/
+   8      =1  
+   9      =1  #ifndef __STDIO_H__
+  10      =1  #define __STDIO_H__
+  11      =1  
+  12      =1  #ifndef EOF
+  13      =1   #define EOF -1
+  14      =1  #endif
+  15      =1  
+  16      =1  #ifndef NULL
+  17      =1   #define NULL ((void *) 0)
+  18      =1  #endif
+  19      =1  
+  20      =1  #ifndef _SIZE_T
+  21      =1   #define _SIZE_T
+  22      =1   typedef unsigned int size_t;
+  23      =1  #endif
+  24      =1  
+  25      =1  #pragma SAVE
+  26      =1  #pragma REGPARMS
+  27      =1  extern char _getkey (void);
+  28      =1  extern char getchar (void);
+  29      =1  extern char ungetchar (char);
+  30      =1  extern char putchar (char);
+  31      =1  extern int printf   (const char *, ...);
+  32      =1  extern int sprintf  (char *, const char *, ...);
+  33      =1  extern int vprintf  (const char *, char *);
+  34      =1  extern int vsprintf (char *, const char *, char *);
+  35      =1  extern char *gets (char *, int n);
+  36      =1  extern int scanf (const char *, ...);
+  37      =1  extern int sscanf (char *, const char *, ...);
+  38      =1  extern int puts (const char *);
+  39      =1  
+  40      =1  #pragma RESTORE
+  41      =1  
+  42      =1  #endif
+  43      =1  
+   2          
+   3          void main() {
+   4   1      
+   5   1      }
+   6          
+   7          
+C51 COMPILER V9.56.0.0   MAIN                                                              06/10/2018 15:00:32 PAGE 2   
+
+ASSEMBLY LISTING OF GENERATED OBJECT CODE
+
+
+             ; FUNCTION main (BEGIN)
+                                           ; SOURCE LINE # 3
+                                           ; SOURCE LINE # 5
+0000 22                RET     
+             ; FUNCTION main (END)
+
+C51 COMPILER V9.56.0.0   MAIN                                                              06/10/2018 15:00:32 PAGE 3   
+
+NAME                                    CLASS   MSPACE  TYPE    OFFSET  SIZE
+====                                    =====   ======  ====    ======  ====
+
+
+size_t . . . . . . . . . . . . . . . .  TYPEDEF  -----  U_INT    -----  2
+main . . . . . . . . . . . . . . . . .  PUBLIC   CODE   PROC     0000H  -----
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      1    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
